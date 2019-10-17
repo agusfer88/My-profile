@@ -2,11 +2,11 @@ html {
     color: #2A382C;
 }
 #img.source-image {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+     width: 320%;
+    position: absolute;
+    top: 0;
+    left: -146%;
+    z-index: -1;
 }
 h1{
 
@@ -69,7 +69,12 @@ p{
 
 
   @media (min-width: 900px){
-    h1{    
+  #img.source-image { 
+    width: 100%;
+    left: 0;
+    right: none; 
+  }
+  h1{    
       font-size: 10em;
       margin-block-end: 0em;
     }
